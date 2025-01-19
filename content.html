@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Content | E-Commerce Website by Techtitans</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="headerContainer"></div>
+    <header>
+        <h1></h1>
+    </header>
+
+    <div id="mainContainer">
+        <h1>Clothing for Men and Women</h1>
+        <section id="clothingSection">
+            <div id="containerClothing">
+            </div>
+        </section>
+        <section id="accessoriesSection">
+            <h2>Accessories for Men and Women</h2>
+            <div id="containerAccessories">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Techtitans. All Rights Reserved.</p>
+    </footer>
+
+<div id="productModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <img id="modalImage" src="" alt="Product Image">
+        <div class="modal-details">
+            <h2 id="modalName"></h2>
+            <h4 id="modalCategory"></h4>
+            <p id="modalDescription"></p>
+            <div class="price-container">
+                <h2 id="modalCurrentPrice"></h2>
+                <span id="modalDiscountPrice" class="discount-price"></span>
+            </div>
+            <div class="rating-container">
+                <span class="rating" id="modalRating"></span>
+                <span class="reviews" id="modalReviews"></span>
+            </div>
+            <div class="availability-badge" id="modalAvailability"></div>
+        </div>
+        <div class="comments-container" id="commentsContainer">
+            <h3>Customer Comments</h3>
+            <div id="commentsList">
+               
+            </div>
+        </div>
+        <div class="add-comment-container">
+            <h3>Add a Comment</h3>
+            <textarea id="newCommentText" placeholder="Enter your comment..."></textarea>
+            <button id="addCommentButton">Submit Comment</button>
+        </div>
+    </div>
+</div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
